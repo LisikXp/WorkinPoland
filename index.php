@@ -4,5 +4,5 @@
 //require_once $_SERVER['DOCUMENT_ROOT']. '/application/controllers/Controller.php';
 //require_once $_SERVER['DOCUMENT_ROOT']. '/application/controllers/View.php';
 //$app = new Bootstrap();
-echo $_SERVER['DOCUMENT_ROOT']. "/application/views/anketa.php";
+echo $_SERVER['HTTP_HOST']. "/application/views/anketa.php";
 ?>
