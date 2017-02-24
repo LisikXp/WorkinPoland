@@ -1,6 +1,6 @@
 <?php
 
-require_once $_SERVER['HTTP_HOST']. "/application/views/config/functions.php";
+require_once $_SERVER['DOCUMENT_ROOT']. "/application/views/config/functions.php";
 if(isset($_SESSION['id'])){header('location:'.userfile);} 
 // Если авторизирован - выполняем переход
 // Заранее инициализируем переменную авторизации, присвоив ей ложное значение
