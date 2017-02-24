@@ -6,7 +6,7 @@ class View {
 }
 
 public function render($name) {
-  require $_SERVER['DOCUMENT_ROOT']. '/application/views/'.$name.'.php';
+  require $_SERVER['HTTP_HOST']. '/application/views/'.$name.'.php';
 }
 }
 ?>
