@@ -4,5 +4,5 @@ require_once  $_SERVER['HTTP_HOST']. '/application/bootstrap.php';
 require_once  $_SERVER['HTTP_HOST']. '/application/controllers/Controller.php';
 require_once  $_SERVER['HTTP_HOST']. '/application/controllers/View.php';
 $app = new Bootstrap();
-echo dirname(__FILE__). "/application/views/anketa.php";
+echo $_SERVER['REQUEST_URI']. "/application/views/anketa.php";
 ?>
