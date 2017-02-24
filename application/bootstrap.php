@@ -13,7 +13,7 @@ class Bootstrap {
 			return false;
 		}
 
-		$file = $_SERVER['HTTP_HOST'].'/application/controllers/'.$url[0].'.php';
+		$file = $_SERVER['DOCUMENT_ROOT'].'/application/controllers/'.$url[0].'.php';
 		if(file_exists($file)) {
 			require $file;
 		} else {
