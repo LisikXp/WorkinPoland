@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['HTTP_HOST']. "/application/views/config/functions.php";
+//require_once $_SERVER['HTTP_HOST']. "/application/views/config/functions.php";
 
 if(isset($_POST['send'])){
 	$user_main['last_name'] = $_POST['last_name'];
