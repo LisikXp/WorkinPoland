@@ -1,5 +1,5 @@
 <?php 
-require_once $_SERVER['DOCUMENT_ROOT']. "/application/views/config/functions.php";
+require_once $_SERVER['HTTP_HOST']. "/application/views/config/functions.php";
 if(!isset($_SESSION['id'])){header('location:login');} 
 $data = new Select();
 $agent_name = $_SESSION['name'];
