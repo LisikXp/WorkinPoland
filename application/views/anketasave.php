@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['HTTP_HOST']. "/application/views/config/functions.php";
+require_once $_SERVER['DOCUMENT_ROOT']. "/application/views/config/functions.php";
 $email = $_GET['user'];
 $pub = '123456';
 $sql_res = mysql_query("SELECT * FROM anketa WHERE email='$email'");
